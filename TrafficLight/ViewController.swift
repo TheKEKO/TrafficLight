@@ -12,19 +12,18 @@ class ViewController: UIViewController {
     @IBOutlet var greetingRedLight: UIView!
     @IBOutlet var greetingOrangeLight: UIView!
     @IBOutlet var greetingGreenLight: UIView!
+    
     @IBOutlet var greetingStartButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         greetingRedLight.layer.cornerRadius = 50
         greetingRedLight.alpha = 0.3
-        
         greetingOrangeLight.layer.cornerRadius = 50
         greetingOrangeLight.alpha = 0.3
-        
         greetingGreenLight.layer.cornerRadius = 50
         greetingGreenLight.alpha = 0.3
-        
         greetingStartButton.layer.cornerRadius = 10
     }
     
